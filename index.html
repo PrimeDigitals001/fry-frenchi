@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>document.documentElement.classList.add('js', 'prep'); setTimeout(function () { document.documentElement.classList.remove('prep'); }, 5000);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fry Frenchi, Surat | Loaded fries and signature sauces from a food truck in Vesu</title>
+  <meta name="description" content="Fry Frenchi is a food truck at Phoenix Mall, Vesu, Surat. Loaded fries in six house sauces from ₹249, golden fries ₹69, loaded nachos and cheesy bites. Where fries get fancy. Party orders welcome.">
+  <meta name="theme-color" content="#fcd03a">
+  <meta property="og:title" content="Fry Frenchi | Where fries get fancy">
+  <meta property="og:description" content="Loaded fries and signature sauces from a food truck in Vesu, Surat.">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Fredoka:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/logo.webp">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Fry Frenchi",
+    "slogan": "Where fries get fancy",
+    "description": "Food truck serving loaded fries with signature sauces, nachos and cheesy bites.",
+    "servesCuisine": ["Loaded Fries", "Fast Food", "Snacks"],
+    "priceRange": "₹₹",
+    "image": "assets/og.jpg",
+    "address": { "@type": "PostalAddress", "streetAddress": "Food truck, Phoenix Mall, Vesu Main Road, opp. Aagam Vivanna", "addressLocality": "Surat", "addressRegion": "Gujarat", "postalCode": "395007", "addressCountry": "IN" },
+    "sameAs": ["https://www.instagram.com/fry.frenchi"]
+  }
+  </script>
+</head>
+<body class="is-loading">
+
+  <!-- ============ Header ============ -->
+  <header class="top" id="top">
+    <a class="logo" href="#top" aria-label="Fry Frenchi, home"><img src="assets/logo.webp" alt="Fry Frenchi" width="900" height="701"></a>
+    <nav class="top__nav" aria-label="Primary">
+      <a href="#flavours">Flavours</a>
+      <a href="#menu">Menu</a>
+      <a href="#party">Party orders</a>
+      <a href="#visit">Find the truck</a>
+    </nav>
+    <a class="btn btn--plum top__cta" data-order="Hi Fry Frenchi! I'd like to place an order." href="https://ig.me/m/fry.frenchi" target="_blank" rel="noopener">Order now</a>
+  </header>
+
+  <!-- Compact bar that drops in after the hero -->
+  <div class="bar" id="bar">
+    <a class="bar__logo" href="#top" aria-label="Back to top"><img src="assets/icon.png" alt=""></a>
+    <nav class="bar__nav" aria-label="Sections">
+      <a href="#flavours">Flavours</a><a href="#menu">Menu</a><a href="#party">Party</a><a href="#visit">Visit</a>
+    </nav>
+    <a class="btn btn--yellow btn--sm bar__order" data-order="Hi Fry Frenchi! I'd like to place an order." href="https://ig.me/m/fry.frenchi" target="_blank" rel="noopener">Order</a>
+    <button class="bar__menu" id="menuBtn" aria-expanded="false" aria-controls="sheet">Menu</button>
+  </div>
+
+  <div class="sheet" id="sheet" aria-hidden="true">
+    <nav class="sheet__links" aria-label="Mobile">
+      <a href="#flavours">Flavours</a>
+      <a href="#menu">The menu</a>
+      <a href="#party">Party orders</a>
+      <a href="#visit">Find the truck</a>
+    </nav>
+    <div class="sheet__foot">
+      <a class="btn btn--plum" data-order="Hi Fry Frenchi! I'd like to place an order." href="https://ig.me/m/fry.frenchi" target="_blank" rel="noopener">Order on Instagram</a>
+      <a class="btn btn--cream" data-dir href="#" target="_blank" rel="noopener">Directions</a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="hero-h">
+      <h1 class="sr-only" id="hero-h">Fry Frenchi. Loaded fries and signature sauces from a food truck in Vesu, Surat.</h1>
+
+      <div class="hero__stage" id="stage">
+        <div class="hero__word">
+          <p class="hero__big" aria-hidden="true"><span>F</span><span>R</span><span>I</span><span>E</span><span>S</span></p>
+          <svg class="drizzle" id="drizzle" viewBox="0 0 1000 160" aria-hidden="true">
+            <path class="drizzle__edge" d="M20 70C90 20 130 130 200 86S300 10 360 70 470 140 520 80 610 14 680 74 790 140 840 82 940 30 985 70"/>
+            <path class="drizzle__sauce" d="M20 70C90 20 130 130 200 86S300 10 360 70 470 140 520 80 610 14 680 74 790 140 840 82 940 30 985 70"/>
+          </svg>
+        </div>
+        <p class="hero__logo" aria-hidden="true">get fancy</p>
+
+        <!-- Two cartons, like the two in the logo. They meet in the middle, then step back. -->
+        <div class="carton carton--a" aria-hidden="true">
+          <svg viewBox="0 0 200 240">
+            <defs><clipPath id="cA"><rect x="0" y="-60" width="200" height="262"/></clipPath></defs>
+            <path d="M24 84h152l8 16H16z" fill="#2a1a2b"/>
+            <g class="fries" clip-path="url(#cA)">
+              <rect class="fry" x="30" y="40" width="17" height="130" rx="4"/>
+              <rect class="fry fry--y" x="46" y="14" width="17" height="150" rx="4"/>
+              <rect class="fry fry--o" x="62" y="30" width="17" height="140" rx="4"/>
+              <rect class="fry" x="78" y="2" width="17" height="160" rx="4"/>
+              <rect class="fry fry--y" x="94" y="22" width="17" height="150" rx="4"/>
+              <rect class="fry fry--o" x="110" y="-4" width="17" height="170" rx="4"/>
+              <rect class="fry" x="126" y="26" width="17" height="140" rx="4"/>
+              <rect class="fry fry--y" x="142" y="8" width="17" height="150" rx="4"/>
+              <rect class="fry fry--o" x="156" y="44" width="16" height="120" rx="4"/>
+            </g>
+            <path d="M12 96Q100 150 188 96L170 230Q100 242 30 230z" fill="#5b4258" stroke="#2a1a2b" stroke-width="6" stroke-linejoin="round"/>
+            <path d="M150 112 136 226" stroke="#4a3448" stroke-width="10" stroke-linecap="round"/>
+            <path d="M52 158Q100 196 148 158" fill="none" stroke="#fff3dc" stroke-width="11" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="carton carton--b" aria-hidden="true">
+          <svg viewBox="0 0 200 240">
+            <defs><clipPath id="cB"><rect x="0" y="-60" width="200" height="262"/></clipPath></defs>
+            <path d="M24 84h152l8 16H16z" fill="#2a1a2b"/>
+            <g class="fries" clip-path="url(#cB)">
+              <rect class="fry fry--o" x="30" y="24" width="17" height="140" rx="4"/>
+              <rect class="fry" x="46" y="0" width="17" height="160" rx="4"/>
+              <rect class="fry fry--y" x="62" y="36" width="17" height="130" rx="4"/>
+              <rect class="fry fry--o" x="78" y="10" width="17" height="150" rx="4"/>
+              <rect class="fry" x="94" y="-6" width="17" height="170" rx="4"/>
+              <rect class="fry fry--y" x="110" y="28" width="17" height="140" rx="4"/>
+              <rect class="fry fry--o" x="126" y="4" width="17" height="160" rx="4"/>
+              <rect class="fry" x="142" y="30" width="17" height="140" rx="4"/>
+              <rect class="fry fry--y" x="156" y="40" width="16" height="120" rx="4"/>
+            </g>
+            <path d="M12 96Q100 150 188 96L170 230Q100 242 30 230z" fill="#5b4258" stroke="#2a1a2b" stroke-width="6" stroke-linejoin="round"/>
+            <path d="M150 112 136 226" stroke="#4a3448" stroke-width="10" stroke-linecap="round"/>
+            <path d="M52 158Q100 196 148 158" fill="none" stroke="#fff3dc" stroke-width="11" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="burst" id="burst" aria-hidden="true">
+          <i class="chip"></i><i class="chip"></i><i class="chip"></i><i class="chip"></i><i class="chip"></i><i class="chip"></i><i class="chip"></i><i class="chip"></i><i class="chip"></i><i class="chip"></i>
+        </div>
+
+        <span class="sticker hero__sticker" aria-hidden="true">6 house<br>sauces</span>
+      </div>
+
+      <div class="hero__foot">
+        <div class="hero__ctas">
+          <a class="btn btn--plum" href="#flavours">Pick a flavour</a>
+          <a class="btn btn--cream" href="#menu">See the menu</a>
+        </div>
+        <p class="hero__side">Loaded fries and signature sauces. A food truck at Phoenix Mall, Vesu, Surat.</p>
+      </div>
+    </section>
+
+    <!-- ============ Story ============ -->
+    <section class="story" aria-labelledby="story-h">
+      <div class="wave wave--orange wave--top" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 50C160 10 300 10 480 40S800 90 980 50 1300 0 1440 30V90H0Z"/></svg></div>
+      <h2 class="sr-only" id="story-h">What we make</h2>
+      <div class="story__lines" aria-hidden="true">
+        <p class="story__line" data-dir="-1"><span>Loaded fries</span><img src="assets/cut/fries.webp" alt=""><span>Loaded fries</span><img src="assets/cut/fries.webp" alt=""><span>Loaded fries</span><img src="assets/cut/fries.webp" alt=""></p>
+        <p class="story__line story__line--y" data-dir="1"><span>Cheese overdose</span><b>✦</b><span>Korean fire melt</span><b>✦</b><span>Tandoori tandav</span><b>✦</b><span>Cheese overdose</span><b>✦</b></p>
+        <p class="story__line" data-dir="-1"><span>Fiesta nachos</span><img src="assets/cut/fries.webp" alt=""><span>Khazana bites</span><img src="assets/cut/fries.webp" alt=""><span>Fiesta nachos</span><img src="assets/cut/fries.webp" alt=""></p>
+      </div>
+
+      <div class="wrap story__body">
+        <div class="story__copy">
+          <p class="story__text">Crisp, golden fries, piled into a cup and drowned in one of six house sauces. Made fresh in a little food truck outside Phoenix Mall, Vesu.</p>
+          <p class="story__small">Golden fries from ₹69. Loaded fries from ₹249. Turning cravings into happy moments, one cup at a time.</p>
+        </div>
+        <div class="photos">
+          <figure class="photo photo--a" data-speed="-0.12"><img src="assets/img/cheese-pour.jpg" alt="Molten cheese sauce being ladled over a cup of fries at the Fry Frenchi truck" loading="lazy"></figure>
+          <figure class="photo photo--b" data-speed="0.1"><img src="assets/img/sauce-fries.jpg" alt="Fries drizzled with chipotle and BBQ sauce in a Fry Frenchi cup" loading="lazy"></figure>
+          <figure class="photo photo--c" data-speed="-0.2"><img src="assets/img/masala-fries.jpg" alt="A cup of masala dusted fries with the Fry Frenchi sticker" loading="lazy"></figure>
+          <span class="sticker sticker--plum photos__tag" aria-hidden="true">Straight from<br>the truck</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Sauce lab (pinned) ============ -->
+    <section class="lab" id="flavours" aria-labelledby="lab-h">
+      <div class="wave wave--cream wave--top" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 30C200 80 380 90 560 50S900 0 1080 40 1320 80 1440 40V90H0Z"/></svg></div>
+      <div class="lab__pin" id="labPin" data-step="1">
+        <div class="lab__copy">
+          <h2 class="lab__title" id="lab-h">Pick your sauce</h2>
+          <p class="lab__hint">Six house flavours. Scroll to taste them all.</p>
+          <ol class="lab__steps" id="labSteps"></ol>
+          <div class="lab__price">
+            <p class="lab__sizes"><span><b>₹249</b>Regular</span><span><b>₹289</b>Large</span></p>
+            <a class="btn btn--plum btn--sm" id="labOrder" data-order="Hi Fry Frenchi! I'd like to order loaded fries." href="https://ig.me/m/fry.frenchi" target="_blank" rel="noopener">Order this</a>
+          </div>
+        </div>
+
+        <div class="lab__stage" aria-hidden="true">
+          <svg class="bowl" id="bowl" viewBox="0 0 400 380">
+            <defs>
+              <clipPath id="sticker"><circle cx="200" cy="268" r="58"/></clipPath>
+            </defs>
+            <ellipse class="bowl__shadow" cx="200" cy="356" rx="150" ry="16"/>
+            <g class="bowl__fries">
+              <rect class="fry" x="72" y="92" width="22" height="110" rx="5" transform="rotate(-24 83 150)"/>
+              <rect class="fry fry--y" x="98" y="70" width="22" height="120" rx="5" transform="rotate(-12 109 130)"/>
+              <rect class="fry fry--o" x="126" y="56" width="22" height="130" rx="5" transform="rotate(-6 137 120)"/>
+              <rect class="fry" x="152" y="40" width="22" height="140" rx="5" transform="rotate(4 163 110)"/>
+              <rect class="fry fry--y" x="178" y="30" width="22" height="150" rx="5" transform="rotate(-3 189 105)"/>
+              <rect class="fry fry--o" x="204" y="44" width="22" height="140" rx="5" transform="rotate(8 215 114)"/>
+              <rect class="fry" x="230" y="52" width="22" height="130" rx="5" transform="rotate(14 241 117)"/>
+              <rect class="fry fry--y" x="258" y="70" width="22" height="120" rx="5" transform="rotate(20 269 130)"/>
+              <rect class="fry fry--o" x="284" y="92" width="22" height="110" rx="5" transform="rotate(28 295 147)"/>
+              <rect class="fry fry--o" x="112" y="104" width="22" height="90" rx="5" transform="rotate(30 123 149)"/>
+              <rect class="fry" x="250" y="104" width="22" height="90" rx="5" transform="rotate(-30 261 149)"/>
+            </g>
+            <path class="sauce sauce--edge" id="sauceEdge" d="M84 132C120 92 140 160 170 118S220 70 240 120 300 150 318 118"/>
+            <path class="sauce" id="sauce" d="M84 132C120 92 140 160 170 118S220 70 240 120 300 150 318 118"/>
+            <path class="sauce sauce--edge sauce--2" id="sauce2Edge" d="M110 98C150 140 170 70 200 102S260 150 290 96"/>
+            <path class="sauce sauce--2" id="sauce2" d="M110 98C150 140 170 70 200 102S260 150 290 96"/>
+            <g class="bits" id="bits">
+              <circle cx="120" cy="110" r="7"/><circle cx="160" cy="84" r="6"/><circle cx="206" cy="76" r="7"/>
+              <circle cx="250" cy="96" r="6"/><circle cx="286" cy="120" r="7"/><circle cx="182" cy="128" r="6"/>
+              <circle cx="140" cy="136" r="5"/><circle cx="232" cy="134" r="5"/><circle cx="104" cy="140" r="5"/>
+            </g>
+            <path d="M56 160H344L318 336Q200 356 82 336Z" fill="#d9b585" stroke="#2a1a2b" stroke-width="6" stroke-linejoin="round"/>
+            <path d="M300 172 284 330" stroke="#c49e6c" stroke-width="12" stroke-linecap="round"/>
+            <rect x="44" y="146" width="312" height="30" rx="15" fill="#e8cc9f" stroke="#2a1a2b" stroke-width="6"/>
+            <circle cx="200" cy="268" r="62" fill="#fffdf8" stroke="#2a1a2b" stroke-width="4"/>
+            <image href="assets/logo.webp" x="134" y="218" width="132" height="103" clip-path="url(#sticker)"/>
+          </svg>
+          <p class="lab__name" id="labName">Cheese Overdose</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Menu board ============ -->
+    <section class="board" id="menu" aria-labelledby="menu-h">
+      <div class="wave wave--plum wave--top" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 50C160 10 300 10 480 40S800 90 980 50 1300 0 1440 30V90H0Z"/></svg></div>
+      <div class="wrap">
+        <div class="board__head">
+          <h2 class="board__title" id="menu-h">The menu</h2>
+          <div class="size" role="radiogroup" aria-label="Fries size">
+            <button type="button" role="radio" aria-checked="true" data-size="0">Regular</button>
+            <button type="button" role="radio" aria-checked="false" data-size="1">Large</button>
+            <i class="size__knob" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="board__grid">
+          <div class="rows" id="rows"></div>
+
+          <aside class="plate" id="plate" aria-live="polite">
+            <figure class="plate__photo"><img id="pImg" src="assets/img/cheese-fries.jpg" alt=""></figure>
+            <div class="plate__body">
+              <p class="plate__price" id="pPrice"></p>
+              <h3 class="plate__name" id="pName"></h3>
+              <p class="plate__tags" id="pTags"></p>
+              <p class="plate__desc" id="pDesc"></p>
+              <a class="btn btn--yellow" id="pOrder" href="https://ig.me/m/fry.frenchi" target="_blank" rel="noopener">Order this</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Party orders ============ -->
+    <section class="party" id="party" aria-labelledby="party-h">
+      <div class="wave wave--yellow wave--top" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 30C200 80 380 90 560 50S900 0 1080 40 1320 80 1440 40V90H0Z"/></svg></div>
+      <div class="wrap party__head">
+        <h2 class="party__title" id="party-h"><span>Party</span><span>orders</span><span class="party__sub">We bring the fancy fries to you.</span></h2>
+        <div>
+          <p class="party__text">Birthdays, office treats, society events, college fests. Tell us the date and how many people, and we'll plan the flavours, the trays and the timing.</p>
+          <ul class="kinds" aria-hidden="true">
+            <li class="sticker">Birthdays</li>
+            <li class="sticker sticker--plum">Office treats</li>
+            <li class="sticker sticker--orange">Society events</li>
+            <li class="sticker sticker--plum">College fests</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <form class="quote" id="quote" novalidate>
+          <div class="quote__head">
+            <h3 class="quote__title">Plan your party</h3>
+            <p>We reply on Instagram, usually the same day.</p>
+          </div>
+
+          <fieldset class="q-field">
+            <legend>What's the occasion?</legend>
+            <div class="q-kinds" id="qKinds">
+              <button type="button" aria-pressed="true">Birthday</button>
+              <button type="button" aria-pressed="false">Office</button>
+              <button type="button" aria-pressed="false">Society event</button>
+              <button type="button" aria-pressed="false">College fest</button>
+              <button type="button" aria-pressed="false">Something else</button>
+            </div>
+          </fieldset>
+
+          <div class="q-field">
+            <label for="qCount">How many people?</label>
+            <div class="q-count">
+              <button class="q-step" type="button" data-step="-5" aria-label="Five fewer">−</button>
+              <input id="qCount" type="number" inputmode="numeric" min="10" max="2000" step="5" value="30">
+              <button class="q-step" type="button" data-step="5" aria-label="Five more">+</button>
+            </div>
+          </div>
+
+          <div class="q-row">
+            <div class="q-field"><label for="qDate">Date</label><input id="qDate" type="date"></div>
+            <div class="q-field"><label for="qName">Your name</label><input id="qName" type="text" autocomplete="name" placeholder="Your name"></div>
+            <div class="q-field"><label for="qPlace">Where</label><input id="qPlace" type="text" placeholder="Area or venue"></div>
+          </div>
+
+          <button class="btn btn--plum btn--big" type="submit">Send on Instagram</button>
+          <p class="q-hint">We copy your request, then open our Instagram chat. Just paste and send.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ Visit ============ -->
+    <section class="visit" id="visit" aria-labelledby="visit-h">
+      <div class="wave wave--cream wave--top" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 50C160 10 300 10 480 40S800 90 980 50 1300 0 1440 30V90H0Z"/></svg></div>
+      <div class="wrap">
+        <h2 class="visit__title" id="visit-h">Find the truck</h2>
+      </div>
+
+      <div class="road" id="road" aria-hidden="true">
+        <div class="truck" id="truck">
+          <svg viewBox="0 0 270 150">
+            <!-- fry carton on the roof -->
+            <g class="truck__roof">
+              <rect x="92" y="2" width="11" height="40" rx="3" fill="#f6a63a" stroke="#2a1a2b" stroke-width="3.5"/>
+              <rect x="104" y="-6" width="11" height="48" rx="3" fill="#fcd03a" stroke="#2a1a2b" stroke-width="3.5"/>
+              <rect x="116" y="0" width="11" height="42" rx="3" fill="#e8792b" stroke="#2a1a2b" stroke-width="3.5"/>
+              <rect x="128" y="6" width="11" height="36" rx="3" fill="#f6a63a" stroke="#2a1a2b" stroke-width="3.5"/>
+              <path d="M84 22h64l-6 22h-52z" fill="#5b4258" stroke="#2a1a2b" stroke-width="4" stroke-linejoin="round"/>
+            </g>
+            <rect x="12" y="40" width="182" height="78" rx="10" fill="#fcd03a" stroke="#2a1a2b" stroke-width="5"/>
+            <path d="M194 58h36q8 0 12 8l14 26v26h-62z" fill="#fcd03a" stroke="#2a1a2b" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M204 66h24l12 24h-36z" fill="#bfe4ef" stroke="#2a1a2b" stroke-width="3.5" stroke-linejoin="round"/>
+            <rect x="38" y="60" width="118" height="34" rx="4" fill="#5b4258" stroke="#2a1a2b" stroke-width="4"/>
+            <path d="M32 50h130l-6 12H38z" fill="#e8792b" stroke="#2a1a2b" stroke-width="4" stroke-linejoin="round"/>
+            <path d="M38 62q8 10 16 0 8 10 16 0 8 10 16 0 8 10 16 0 8 10 16 0 8 10 16 0 8 10 16 0" fill="#fff3dc" stroke="#2a1a2b" stroke-width="3"/>
+            <text x="97" y="110" text-anchor="middle" font-family="Fredoka, Arial Rounded MT Bold, Arial" font-weight="700" font-size="15" fill="#2a1a2b">fry frenchi</text>
+            <rect x="8" y="114" width="254" height="10" rx="5" fill="#2a1a2b"/>
+            <circle cx="252" cy="100" r="5" fill="#fff4c2" stroke="#2a1a2b" stroke-width="2.5"/>
+            <g class="wheel"><circle cx="62" cy="124" r="17" fill="#2a1a2b"/><circle cx="62" cy="124" r="7" fill="#d8d2c8"/><path d="M62 111v26M49 124h26" stroke="#2a1a2b" stroke-width="3"/></g>
+            <g class="wheel"><circle cx="222" cy="124" r="17" fill="#2a1a2b"/><circle cx="222" cy="124" r="7" fill="#d8d2c8"/><path d="M222 111v26M209 124h26" stroke="#2a1a2b" stroke-width="3"/></g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="visit__grid">
+          <article class="ticket">
+            <div class="ticket__main">
+              <p class="ticket__top"><span>Fry Frenchi · Surat</span><span class="status">Food truck</span></p>
+              <dl class="ticket__route">
+                <div><dt>From</dt><dd>Wherever you are</dd></div>
+                <div><dt>To</dt><dd>Phoenix Mall, Vesu</dd></div>
+              </dl>
+              <dl class="ticket__info">
+                <div><dt>Spot</dt><dd>Food truck at Phoenix Mall, Vesu Main Road, opposite Aagam Vivanna, Vesu, Surat 395007</dd></div>
+                <div><dt>Timing</dt><dd>Evenings. Today's hours are on our <a href="https://www.instagram.com/fry.frenchi" target="_blank" rel="noopener">Instagram</a>.</dd></div>
+                <div><dt>Order</dt><dd>At the truck, or DM <a href="https://www.instagram.com/fry.frenchi" target="_blank" rel="noopener">@fry.frenchi</a></dd></div>
+              </dl>
+            </div>
+            <div class="ticket__stub">
+              <span class="ticket__class">Class<b>Hungry</b></span>
+              <a class="btn btn--plum btn--sm" data-dir href="#" target="_blank" rel="noopener">Directions</a>
+              <a class="btn btn--cream btn--sm" href="https://www.instagram.com/fry.frenchi" target="_blank" rel="noopener">Instagram</a>
+            </div>
+          </article>
+
+          <div class="map">
+            <iframe title="Map of the Fry Frenchi food truck at Phoenix Mall, Vesu, Surat" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Fry%20Frenchi%2C%20Phoenix%20Mall%2C%20Vesu%20Main%20Road%2C%20Vesu%2C%20Surat%2C%20Gujarat%20395007&z=16&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="foot">
+    <div class="wave wave--plum wave--top" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 30C200 80 380 90 560 50S900 0 1080 40 1320 80 1440 40V90H0Z"/></svg></div>
+    <div class="wrap">
+      <div class="foot__top">
+        <p class="foot__line">Hungry yet?</p>
+        <div class="foot__ctas">
+          <a class="btn btn--yellow btn--big" data-order="Hi Fry Frenchi! I'd like to place an order." href="https://ig.me/m/fry.frenchi" target="_blank" rel="noopener">Order on Instagram</a>
+          <a class="btn btn--cream btn--big" href="#menu">See the menu</a>
+        </div>
+      </div>
+
+      <div class="foot__mark" aria-hidden="true">
+        <img class="drop d1" src="assets/cut/fries.webp" alt="">
+        <i class="drop stick d2"></i>
+        <i class="drop stick stick--y d3"></i>
+        <i class="drop stick stick--o d4"></i>
+        <span>fry frenchi</span>
+      </div>
+
+      <div class="foot__base">
+        <nav aria-label="Footer"><a href="#flavours">Flavours</a><a href="#menu">Menu</a><a href="#party">Party orders</a><a href="#visit">Find us</a><a href="https://www.instagram.com/fry.frenchi" target="_blank" rel="noopener">Instagram</a></nav>
+        <p>Where fries get fancy. Vesu, Surat. © <span id="year">2026</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="fab" data-order="Hi Fry Frenchi! I'd like to place an order." href="https://ig.me/m/fry.frenchi" target="_blank" rel="noopener" aria-label="Order on Instagram">Order</a>
+  <p class="toast" id="toast" role="status" aria-live="polite"></p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
